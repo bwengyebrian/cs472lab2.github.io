@@ -27,6 +27,11 @@ img.mood-img{
 }
 ul.numbered-list,ol.numbered-list{
 	list-style-type:decimal;
+	
+}
+ul.reversed,ol.numbered-list{
+	display: flex;
+    flex-direction: column-reverse;
 }
 p::first-letter{
 	text-transform: uppercase;
